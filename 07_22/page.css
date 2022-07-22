@@ -1,0 +1,43 @@
+div{
+  
+  margin-bottom:10px;
+  background:#A5D8FA;
+
+}
+.x{
+  width:20px;
+  height:20px;
+  background:#87CEFA;
+  margin-left:480px;
+  display:inline-box;
+
+}
+.icon{
+  width:20px;
+}
+
+.container{
+  width:500px;
+  background:#B9E2FA;
+  left: 20px;
+  top: 20px;
+  /* 포지션은 html의 우선순위에 따라 적용되는데 
+  모든 박스는 보여지는 브라우저에 맞게 정의가 되어 있음(position : static; 상태(변경X) )으로 left: ;
+  와 같은 명령어로 변경이 되지 않는다. => 브라우저의 끝부분에 맞추어서 정의됨
+  변경해주기 위해서는 position: relative; 해주어야 변경할수 있음
+  */
+  position: relative;
+
+ 
+}
+#img {
+  width:100px;
+}
+
+.box{
+  background:#87CEFA;
+  left: 20px;
+  top: 20px;
+tion: sticky;
+  margin-bottom:10px;
+}
